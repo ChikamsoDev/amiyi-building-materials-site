@@ -220,3 +220,64 @@ footer {
         justify-content: space-between;
     }
 }
+
+/* Add these at the end of styles.css */
+
+.hero {
+    text-align: center;
+}
+
+.urgency {
+    color: #F5A623;
+    font-weight: 600;
+    margin-top: 10px;
+    font-size: 1.05rem;
+}
+
+.proof {
+    background: #fff;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.proof-content {
+    max-width: 700px;
+    margin: 0 auto;
+    background: #f8f9fa;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.proof ul {
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem 0;
+    display: grid;
+    gap: 12px;
+}
+
+.small-cta {
+    display: inline-block;
+    margin-top: 12px;
+    color: var(--color-accent);
+    font-weight: 600;
+}
+
+.final-cta {
+    background: var(--color-primary);
+    color: white;
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+.final-cta h2 {
+    color: white;
+}
+
+/* Mobile improvements */
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 2.1rem;
+    }
+}
